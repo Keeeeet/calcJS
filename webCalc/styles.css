@@ -1,0 +1,90 @@
+body {
+  background-color: #222831;
+  text-align: center;
+  font-family: Arial;
+  color: #eeeeee;
+  margin: 0;
+}
+span {
+  visibility: hidden;
+}
+
+footer {
+  background-color: #2c343f;
+  font-size: 0.7rem;
+  color: #00adb5;
+}
+.footer-txt {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 5px
+}
+button {
+  background-color: #393e46;
+  border: none;
+  color: #eeeeee;
+  font-size: 1rem;
+  border-radius: 3%;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0f1114;
+  transition: all 0.5s;
+}
+
+.first-line-button {
+  width: 47%;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+.other-line-button {
+  width: 23%;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 5px auto;
+}
+
+.numButtons {
+  background-color: #2c343f;
+}
+
+.special-button {
+  background-color: #00adb5;
+}
+.special-button:hover{
+  background-color: #04f5f9;
+}
+.calculator {
+  margin: 80px auto;
+  height: 465px;
+  width: 340px;
+  border: 2px solid #00adb5;
+  border-radius: 7px;
+}
+
+.display {
+  border: none;
+  border-bottom: 2px solid #00adb5;
+  font-size: 2rem;
+  margin: 0;
+  padding: 25px;
+}
+
+.stand-display-div {
+  height: 36px;
+}
+
+/* head */
+
+.icon {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-shadow: 3px 0 #00adb5;
+  margin-bottom: 10px;
+}
